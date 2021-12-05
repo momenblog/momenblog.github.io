@@ -1,0 +1,126 @@
+
+
+/* common */
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  font-size: 16px;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+
+header {
+  background: #efdec1;
+}
+
+.container {
+  margin: 0 16px;
+  padding: 8px 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+}
+
+header li + li {
+  margin-left: 10px;
+}
+
+/* helo */
+
+.helo {
+  height: 400px;
+}
+
+.helo img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+/* main */
+
+main .profile {
+  font-size: large;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+main .container {
+  width: 600px;
+  margin: auto;
+  display: flex;
+}
+
+main .container h1,p {
+  margin-left: 30px;
+}
+
+main .introduction {
+  width: 700px;
+  margin: auto;
+}
+
+main .blog {
+  font-size: large;
+  text-align: center;
+  margin-top: 80px;
+  /* margin-bottom: 30px; */
+}
+
+.products li  {
+  width: 50%;
+}
+
+.products li img {
+  width: 100%;
+}
+
+.products li h2 {
+  font-size: 16px;
+}
+
+.products ul {
+  display: flex;
+  gap: 16px;
+}
+
+main .pinterest {
+  font-size: large;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+/* footer */
+
+footer {
+  background: #efdec1;
+  margin-top: 80px;
+  padding: 40px;
+  text-align: center;
+}
