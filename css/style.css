@@ -1,5 +1,3 @@
-
-
 /* common */
 
 body {
@@ -66,22 +64,15 @@ header li + li {
 main .profile {
   font-size: large;
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 60px;
+}
+
+.profile h1, p {
+  margin: 0 auto;
 }
 
 main .container {
   width: 600px;
-  margin: auto;
-  display: flex;
-}
-
-main .container h1,p {
-  margin-left: 30px;
-}
-
-main .introduction {
-  width: 700px;
   margin: auto;
 }
 
@@ -89,12 +80,16 @@ main .blog {
   font-size: large;
   text-align: center;
   margin-top: 80px;
-  /* margin-bottom: 30px; */
+}
+
+main .container li {
+  margin-left: 30px;
 }
 
 .products li  {
   width: 50%;
 }
+
 
 .products li img {
   width: 100%;
@@ -104,10 +99,6 @@ main .blog {
   font-size: 16px;
 }
 
-.products ul {
-  display: flex;
-  gap: 16px;
-}
 
 main .pinterest {
   font-size: large;
@@ -123,4 +114,10 @@ footer {
   margin-top: 80px;
   padding: 40px;
   text-align: center;
+}
+
+@media (min-width: 600px) {
+  main .container ul {
+    display: flex;
+  }
 }
